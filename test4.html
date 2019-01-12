@@ -1,0 +1,64 @@
+<html lang="en" >
+<head>
+	<meta charset="UTF-8" />
+	<title>Binance Borsasi</title>
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<center>
+<form action="v/btc4.html" method="post" /> 
+<input type="text" id="val1" placeholder="Deger" />
+<select id="test1" name="GQ">
+  <option value="30">30</option>
+  <option value="60">60</option>
+  <option value="240">240</option>
+  <option value="1440">1440</option>
+</select><br>
+<p><input type="text" id="val2" placeholder="Deger" />
+<select id="test2" name="GQ">
+  <option value="30">30</option>
+  <option value="60">60</option>
+  <option value="240">240</option>
+  <option value="1440">1440</option>
+</select><br>
+<p><input type="text" id="val3" placeholder="Deger" />
+<select id="test3" name="GQ">
+  <option value="30">30</option>
+  <option value="60">60</option>
+  <option value="240">240</option>
+  <option value="1440">1440</option>
+</select><br>
+<p><input type="text" id="val4" placeholder="Deger" />
+<select id="test4" name="GQ">
+  <option value="30">30</option>
+  <option value="60">60</option>
+  <option value="240">240</option>
+  <option value="1440">1440</option>
+</select><br>
+
+<br>
+
+<p><button type="submit" onclick="store()" type="button">Getir</button> 
+</form>
+</center>
+
+
+
+
+<script  type="text/javascript">
+  function store(){
+     localStorage.setItem("val1", document.getElementById("val1").value);
+	 localStorage.setItem("test1", document.getElementById("test1").value);
+	 localStorage.setItem("val2", document.getElementById("val2").value);
+	 localStorage.setItem("test2", document.getElementById("test2").value);
+	 localStorage.setItem("val3", document.getElementById("val3").value);
+	 localStorage.setItem("test3", document.getElementById("test3").value);
+	 localStorage.setItem("val4", document.getElementById("val4").value);
+	 localStorage.setItem("test4", document.getElementById("test4").value);
+    }
+</script>
+
+</body>
+</html>
