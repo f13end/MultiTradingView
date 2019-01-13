@@ -10,6 +10,8 @@ Indirmek icin; https://github.com/f13end/MultiTradingView/releases/download/Beta
 
 SRC.ZIP'i acip istediginiz ekran sayisi sitesini acip oraya gormek istediginiz parite ve dakikayi girebilirsiniz.
 
+**BIST** icin ayri kullanim saglayabilirsiniz. Burada yapmaniz gereken tek sey hissenin kodunu yazmak "PETKM, TTKOM" gibi.
+
 
 ## 3'ten fazla indikator kullanabilmek icin;
 Asagidaki tv-basicstudies'lerden istediginizi **v klasorunde** bulunan btc4 ve btc6 dosyalarindaki studies[] listesinde "xxx" icerisine yerlestirmek
