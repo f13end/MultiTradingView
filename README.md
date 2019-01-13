@@ -12,7 +12,7 @@ SRC.ZIP'i acip istediginiz ekran sayisi sitesini acip oraya gormek istediginiz p
 
 
 ## 3'ten fazla indikator kullanabilmek icin;
-Asagidaki tv-basicstudies'lerden istediginizi v klasorunde bulunan btc4 ve btc6 dosyalarindaki studies[] listesinde "xxx" icerisine yerlestirmek
+Asagidaki tv-basicstudies'lerden istediginizi **v klasorunde** bulunan btc4 ve btc6 dosyalarindaki studies[] listesinde "xxx" icerisine yerlestirmek
 
 **Ornek kullanim:**
 ```javascript
