@@ -1,14 +1,20 @@
 <html lang="en" >
 <head>
 	<meta charset="UTF-8" />
-	<title>Binance Borsasi</title>
+	<title>Borsa</title>
 	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 <center>
+
+<p><b>Hangi borsa grafigini gormek istiyorsunuz (BIST,Binance)</b></p>
 <form action="v/btc4.html" method="post" /> 
+<select id="testBorsa" name="GQ2">
+  <option value="BINANCE">Binance</option>
+  <option value="BIST">BIST</option>
+</select><br><br>
 <input type="text" id="val1" placeholder="Deger" />
 <select id="test1" name="GQ">
   <option value="30">30</option>
@@ -41,6 +47,8 @@
 <br>
 
 <p><button type="submit" onclick="store()" type="button">Getir</button> 
+<p><button type="submit" formaction="v/btc6.html" type="button">Kayitli verileri getir</button> 
+
 </form>
 </center>
 
@@ -57,7 +65,8 @@
 	 localStorage.setItem("test3", document.getElementById("test3").value);
 	 localStorage.setItem("val4", document.getElementById("val4").value);
 	 localStorage.setItem("test4", document.getElementById("test4").value);
-    }
+     localStorage.setItem("testBorsa", document.getElementById("testBorsa").value);
+	}
 </script>
 
 </body>

@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
 	<meta charset="UTF-8" />
-	<title>BINANCE Exchanges</title>
+	<title>Exchanges</title>
 	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -14,7 +14,7 @@
 					<script type="text/javascript">
 					new TradingView.widget({
 					  "autosize": true,
-					  "symbol": "BINANCE:"+localStorage.getItem("val1"),
+					  "symbol": localStorage.getItem("testBorsa")+":"+localStorage.getItem("val1"),
 					  "interval": localStorage.getItem("test1"),
 					  "timezone": "Etc/UTC",
 					  "theme": "Dark",
@@ -31,7 +31,10 @@
             "popup_height": "650",
 					  "studies": [
 						"BB@tv-basicstudies",
-            "MASimple@tv-basicstudies",
+						"MASimple@tv-basicstudies	",
+						"MAExp@tv-basicstudies",
+						"PriceOsc@tv-basicstudies",
+						
 					  ]
 					});
 					</script>
@@ -40,7 +43,7 @@
           <script type="text/javascript">
           new TradingView.widget({
             "autosize": true,
-            "symbol": "BINANCE:"+localStorage.getItem("val2"),
+            "symbol": localStorage.getItem("testBorsa")+":"+localStorage.getItem("val2"),
             "interval": localStorage.getItem("test2"),
             "timezone": "Etc/UTC",
             "theme": "Dark",
@@ -58,6 +61,9 @@
             "studies": [
             "BB@tv-basicstudies",
             "MASimple@tv-basicstudies",
+			 "MASimple@tv-basicstudies",
+			  "MASimple@tv-basicstudies",
+			   "MASimple@tv-basicstudies",
             ]
           });
           </script>
@@ -66,7 +72,7 @@
           <script type="text/javascript">
           new TradingView.widget({
             "autosize": true,
-            "symbol": "BINANCE:"+localStorage.getItem("val3"),
+            "symbol": localStorage.getItem("testBorsa")+":"+localStorage.getItem("val3"),
             "interval": localStorage.getItem("test3"),
             "timezone": "Etc/UTC",
             "theme": "Dark",
@@ -93,7 +99,7 @@
 					<script type="text/javascript">
 					new TradingView.widget({
 					  "autosize": true,
-					  "symbol": "BINANCE"+localStorage.getItem("val4"),
+					  "symbol": localStorage.getItem("testBorsa")+":"+localStorage.getItem("val4"),
 					  "interval": localStorage.getItem("test4"),
 					  "timezone": "Etc/UTC",
 					  "theme": "Dark",
